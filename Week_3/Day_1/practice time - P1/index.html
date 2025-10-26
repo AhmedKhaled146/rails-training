@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="../../images/ahmed.jpg" alt="ahmed image">
+    <p>Nike shoe</p>
+    <button onclick="renderError()">Purchase - $149</button>
+    <p id="error"></p>
+
+    <!-- ================================ Calculator ===================================== -->
+    <span id="num1-el"></span>
+    <span id="num2-el"></span>
+    <br>
+    <button onclick="add()">Add</button>
+    <button onclick="subtract()">Subtract</button>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button>
+    <br>
+    <span id="sum-el">Sum: </span>
+
+    <!-- ================================ Basketball Scoreboard ===================================== -->
+    <h3>Basketball Scoreboard</h3>
+    <div>
+        <span id="team1-score">0</span>
+        <button onclick="add1PointTeam1()">Add 1 Point</button>
+        <button onclick="add2PointsTeam1()">Add 2 Points</button>
+        <button onclick="add3PointsTeam1()">Add 3 Points</button>
+    </div>
+    <div>
+        <span id="team2-score">0</span>
+        <button onclick="add1PointTeam2()">Add 1 Point</button>
+        <button onclick="add2PointsTeam2()">Add 2 Points</button>
+        <button onclick="add3PointsTeam2()">Add 3 Points</button>
+    </div>
+    <button onclick="resetScores()">Reset Scores</button>
+        
+    <script src="index.js"></script>
+</body>
+</html>
