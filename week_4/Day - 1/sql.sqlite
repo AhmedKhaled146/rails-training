@@ -10,3 +10,9 @@ SELECT NAME FROM CITY WHERE CountryCode = 'USA' AND Population > 120000;
 ===> Task 03 - Select All
 
 SELECT * From CITY;
+
+===> Task 04 - Select By ID
+
+SELECT * FROM CITY WHERE id = 1661;
+
+===> Task 05 - 
