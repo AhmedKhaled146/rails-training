@@ -15,4 +15,8 @@ SELECT * From CITY;
 
 SELECT * FROM CITY WHERE id = 1661;
 
-===> Task 05 - 
+===> Task 05 - Japanese Cities' Attributes
+
+SELECT * FROM CITY WHERE CountryCode = 'JPN';
+
+===> Task 06 - 
