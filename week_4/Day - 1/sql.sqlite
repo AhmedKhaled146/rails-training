@@ -2,7 +2,6 @@
 
 SELECT * FROM CITY WHERE CountryCode = 'USA' AND Population > 100000;
 
-
 ===> Task 02 - Revising the Select Query II
 
 SELECT NAME FROM CITY WHERE CountryCode = 'USA' AND Population > 120000;
@@ -19,4 +18,6 @@ SELECT * FROM CITY WHERE id = 1661;
 
 SELECT * FROM CITY WHERE CountryCode = 'JPN';
 
-===> Task 06 - 
+===> Task 06 - Weather Observation Station 1
+
+SELECT CITY, STATE FROM STATION;
